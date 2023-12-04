@@ -1,5 +1,8 @@
 const { ModuleFederationPlugin } = require("webpack").container;
 
+
+console.log(process.env);
+
 module.exports = {
   webpack: {
     plugins: {
@@ -7,8 +10,8 @@ module.exports = {
         new ModuleFederationPlugin({
           name: "super",
           remotes: {
-            opms: "opms@http://localhost:4000/remoteEntry.js",
-            ui: "ui@http://localhost:4001/remoteEntry.js",
+            opms: "opms@https://yarn-monorepo-opms.vercel.app/remoteEntry.js",
+            ui: "ui@https://yarn-monorepo-ui.vercel.app/remoteEntry.js",
           },
           shared: {
             react: { singleton: true },
