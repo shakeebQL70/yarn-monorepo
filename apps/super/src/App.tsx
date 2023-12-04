@@ -13,7 +13,7 @@ function App() {
 
       changes again on super app
 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fuga. Corporis quod expedita officia non provident. Fugiat magnam possimus id minima eius ut, sint dicta magni aspernatur totam deleniti at!
+  
       <Suspense fallback="Loading...">
         <OPMS />
         <UI />
