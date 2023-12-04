@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       Host Application Changes
 
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sed velit, earum temporibus cum unde dicta placeat doloribus, qui illo iusto enim cupiditate omnis error quae nobis aliquid nisi alias.
+      changes again on super app
       <Suspense fallback="Loading...">
         <OPMS />
         <UI />
