@@ -1,8 +1,5 @@
 const { ModuleFederationPlugin } = require("webpack").container;
 
-
-console.log(process.env);
-
 module.exports = {
   webpack: {
     plugins: {

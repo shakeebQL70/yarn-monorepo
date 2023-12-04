@@ -10,6 +10,8 @@ function App() {
   return (
     <div className="App">
       Host Application Changes
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sed velit, earum temporibus cum unde dicta placeat doloribus, qui illo iusto enim cupiditate omnis error quae nobis aliquid nisi alias.
       <Suspense fallback="Loading...">
         <OPMS />
         <UI />
